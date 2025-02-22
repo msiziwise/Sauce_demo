@@ -19,5 +19,6 @@ public class LoginSteps extends Base
     @When("user clicks on the login button")
     public void userClicksOnTheLoginButton() {
         loginPage.clickLoginButton();
+        snapShot.TakeSnapShot(driver,"Msizi");
     }
 }
